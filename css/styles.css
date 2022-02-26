@@ -13,7 +13,7 @@
 }
 
 .conselho {
-    width: 60%;
+    width: 30%;
     margin-top: 75px !important;
     margin-bottom: 75px !important;
     margin: auto;
@@ -100,4 +100,8 @@ body {
     position: absolute;
     right: 0;
     bottom: 50%;
+}
+
+@media screen and (max-width: 600px) {.conselho {
+    width: 60%;
 }
